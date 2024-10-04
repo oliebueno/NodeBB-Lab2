@@ -137,7 +137,6 @@ define('forum/register', [
 				} else {
 					showError(usernameInput, username_notify, '[[error:username-taken]]' + username + 'sufijo');
 				}
-
 				callback();
 			});
 		}
